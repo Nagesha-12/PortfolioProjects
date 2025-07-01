@@ -1,1 +1,70 @@
+# Zomato SQL Analytics Case Study
 
+This project demonstrates real-world SQL analytics using simulated transactional data from a fictional food delivery platform, **Zomato**. It includes customer signups, sales history, product catalog, and premium (gold) membership data.
+
+## Project Overview
+
+The goal is to solve key business and customer-related analytical queries using SQL. This is useful for preparing for SQL interviews, practicing advanced queries, or understanding how data-driven decision-making works in a food-tech company.
+
+## Dataset Structure
+
+Four tables are created and populated with mock data:
+
+- **users**: Stores user signup dates.
+- **goldusers_signup**: Tracks when users joined the Zomato Gold program.
+- **sales**: Transaction data including user, product purchased, and date.
+- **product**: Product catalog with prices.
+
+## SQL Business Questions Solved
+
+1. **Total amount each customer spent on Zomato**
+2. **Number of distinct days each customer visited**
+3. **First product purchased by each customer**
+4. **Most purchased item overall**
+5. **Most frequently purchased item by each customer**
+6. **First item bought after becoming a Gold member**
+7. **Item purchased just before becoming a Gold member**
+8. **Total orders and amount spent before Gold membership**
+9. **Points collected by each customer based on custom loyalty rules**
+10. **Points earned in the first year of Gold membership**
+11. **Rank of all transactions by customer**
+12. **Rank of all transactions during Gold membership; mark non-membership as 'na'**
+
+## SQL Features Used
+
+- `JOIN`, `LEFT JOIN`, `INNER JOIN`
+- `GROUP BY`, `ORDER BY`
+- `RANK() OVER (PARTITION BY...)`
+- `CASE WHEN` and custom logic for rewards
+- `DATEADD`, `CAST`
+
+---
+
+## Use Cases
+
+- Data Analyst/BI interview preparation
+- SQL query optimization practice
+- Understanding business KPIs in a product analytics setting
+
+---
+
+## Insights Learned
+
+- Customer behavior before and after joining loyalty programs
+- Product popularity across segments
+- Transaction-based ranking and loyalty point computations
+
+---
+
+## Tools Used
+
+- **SQL Server
+
+## How to Use
+
+1. Copy the SQL code into your SQL environment.
+2. Execute the table creation and insert statements.
+3. Run the analytical queries to view the results.
+
+## Author
+**Nagesha S** 
