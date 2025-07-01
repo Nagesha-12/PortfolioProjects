@@ -1,1 +1,33 @@
+# Nashville Housing Data Cleaning in SQL
+
+This project demonstrates step-by-step data cleaning using T-SQL on the Nashville Housing dataset. It includes standardizing dates, handling null values, splitting fields, removing duplicates, and dropping unused columns. It is an ideal project to showcase SQL skills for data wrangling and ETL processes.
+
+## Dataset Used
+
+**Nashville Housing Dataset**  
+This dataset contains real estate sales data including property details, owner information, and transaction history.
+
+## Cleaning Tasks Performed
+
+1. **Standardized date format** for consistency.
+2. **Filled missing PropertyAddress** values using self-joins on `ParcelID`.
+3. **Split full addresses** into individual fields (Address, City, State) for both `PropertyAddress` and `OwnerAddress`.
+4. **Removed duplicate records** using `ROW_NUMBER()` with a CTE.
+5. **Dropped unnecessary columns** such as `OwnerAddress`, `TaxDistrict`, and original `SaleDate`.
+
+## SQL Techniques Used
+
+- `ALTER TABLE`, `UPDATE`, `DELETE`
+- `CONVERT()`, `SUBSTRING()`, `CHARINDEX()`, `PARSENAME()`, `ISNULL()`
+- `CTE` with `ROW_NUMBER()` for duplicate detection
+- `JOIN`, `PARTITION BY`, and filtering techniques
+
+## Key Learnings
+
+- Address parsing using string functions like `PARSENAME`, `SUBSTRING`, and `CHARINDEX`
+- Use of window functions for duplicate detection
+- Cleaning and transforming raw data to make it analysis-ready
+
+## Author
+**Nagesha S**
 
