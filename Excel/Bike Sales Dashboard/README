@@ -1,1 +1,29 @@
+🚴‍♂️ Bike Sales Dashboard
+An interactive Excel dashboard designed to analyze bike sales data across different customer segments and regions, helping drive business insights and strategic decisions.
 
+📌 Objective
+To visualize and explore key trends in bike purchases using customer demographics and sales metrics.
+
+📊 Key Features
+
+Interactive filters for Gender, Region, Income, and Education
+KPIs: Total Sales, Purchase Rate, and Customer Distribution
+Visualizations: Bar Charts, Pie Charts, and Trend Lines
+Clean and intuitive layout for business stakeholders
+
+🛠️ Tools Used
+
+Microsoft Excel
+Pivot Tables
+Slicers
+Conditional Formatting
+Charts and Data Visualization Tools
+
+📁 File
+Bike Sales Dashboard.xlsx – Contains the dashboard and supporting data
+
+🎯 Insights Delivered
+
+Which customer profiles are most likely to purchase bikes
+How sales vary by region and income levels
+Sales performance breakdown by demographic factors
