@@ -1,1 +1,45 @@
+🏦 Bank Loan Analysis | SQL + Power BI
+This project analyzes bank loan performance data using MS SQL Server and visualizes insights through a professional Power BI dashboard. It demonstrates end-to-end data handling—from raw ingestion to interactive reporting.
+
+📌 Objective
+To help stakeholders understand key loan trends, monitor good vs. bad loan performance, and make data-driven lending decisions.
+
+🛠 Tools & Technologies
+
+MySQL
+MySQL Workbench
+Power BI (June 2025 version)
+Excel 2021
+
+🔍 Key Features
+🔹 SQL Analysis
+Created database & tables
+Wrote queries to calculate:
+Total Applications, Funded Amount, Amount Received
+Good vs Bad Loans
+Avg. Interest Rate, Avg. Debt-to-Income Ratio
+Used CTEs, date functions, group by, and case logic
+
+🔹 Power BI Dashboards
+📊 Dashboard 1: Summary
+KPIs with MTD & MoM trends
+Good vs Bad Loan segmentation
+Loan status grid view
+
+🌐 Dashboard 2: Overview
+Monthly loan trends
+Regional analysis (Map)
+Term, employment, purpose, and home ownership breakdowns
+
+📋 Dashboard 3: Details
+Comprehensive grid for deep dives
+Borrower-level insights
+
+🧠 Skills Demonstrated
+Data modeling (fact/dimension structure)
+Power Query transformations
+DAX (Time intelligence, KPIs)
+Dashboard design & UX best practices
+Business-oriented storytelling
+
 
