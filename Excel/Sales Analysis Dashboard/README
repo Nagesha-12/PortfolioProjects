@@ -1,1 +1,23 @@
+## Sales Dashboard – Excel | Power Query, Power Pivot, Data Modeling
+This project demonstrates my ability to turn raw transactional data into a dynamic, interactive Excel dashboard using Power Query, Power Pivot, and data modeling techniques.
 
+📌 Project Overview
+Built an end-to-end sales dashboard to analyze performance across product categories, regions, and time periods. This project highlights my proficiency in transforming, modeling, and visualizing business data to uncover actionable insights.
+
+🔧 Tools & Skills
+Excel Power Query – Data cleaning & transformation
+Power Pivot – Relational data modeling with measures and calculated fields
+Pivot Tables & Charts – For dynamic analysis
+Slicers & Timelines – For interactive filtering
+
+📊 Key Highlights
+Fully automated data load and transformation
+KPI tracking: Total Sales, Quantity Sold, Profit Margin
+Trend analysis by Month, Region, Product Category
+User-friendly slicers for deep-dive exploration
+
+🧠 What I Learned
+Building scalable and maintainable Excel dashboards
+Using DAX functions to create dynamic measures
+Designing clean, intuitive interfaces for end users
+Importance of structuring data for analytical efficiency
