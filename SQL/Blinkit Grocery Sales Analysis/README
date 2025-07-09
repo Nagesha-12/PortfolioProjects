@@ -1,1 +1,54 @@
+🛒 Blinkit Grocery Sales Analysis
+This project analyzes Blinkit's grocery sales using SQL and Power BI to uncover trends, improve decision-making, and assess performance across product and outlet variables.
 
+📌 Business Objective
+To conduct a comprehensive analysis of Blinkit's sales performance, customer satisfaction, and inventory distribution, using various KPIs and visualizations to uncover insights and opportunities for optimization.
+
+📊 KPIs Tracked
+
+Total Sales – Overall revenue from items sold
+Average Sales – Revenue per transaction or item
+Number of Items – Count of distinct items sold
+Average Rating – Mean customer satisfaction score
+
+🧹 Data Cleaning
+
+Removed encoding issues (renamed misencoded columns)
+Standardized categorical values like Item_Fat_Content:
+Merged 'LF', 'low fat' → 'Low Fat'
+Renamed 'reg' → 'Regular'
+Used UPDATE + CASE logic in SQL for data normalization
+Ensured consistency for accurate filtering, grouping, and reporting
+
+📈 Granular Insights via SQL
+Analyzed Blinkit’s dataset across multiple dimensions:
+
+1. Total Sales by Fat Content
+→ Understand how product nutrition profile affects sales and ratings
+
+2. Sales by Item Type
+→ Identify high-performing product categories
+
+3. Fat Content by Outlet
+→ Compare how outlet locations vary in their sale of ‘Low Fat’ vs. ‘Regular’ items
+
+4. Sales by Outlet Establishment Year
+→ See how newer vs. older outlets are performing
+
+5. Sales Percentage by Outlet Size
+→ Assess which store sizes drive the most revenue
+
+6. Sales by Outlet Location Type
+→ Understand the geographic footprint of performance
+
+7. All Metrics by Outlet Type
+→ A complete breakdown of all KPIs across different outlet types
+
+
+⚙️ Tools Used
+MySQL – Data cleaning, aggregation, KPI logic
+Excel – Preprocessing and raw data staging
+
+📂 How to Use
+Import the dataset and SQL script (Blinkit Grocery Analysis.sql) into MySQL
+Run the queries to explore insights
