@@ -1,1 +1,47 @@
+This project presents a dynamic Power BI dashboard built to analyze and monitor order data. It focuses on key metrics like order volume, revenue, delivery trends, and customer satisfaction—supporting smarter decisions in e-commerce, logistics, or operations teams.
+
+🧠 Objective
+
+To design an interactive, insightful dashboard that helps stakeholders:
+Track orders and revenue over time
+Identify high-performing products or regions
+Understand customer behavior and satisfaction trends
+Detect bottlenecks in order processing or delivery
+
+📊 Key Metrics
+
+Total Orders
+Total Revenue
+Average Order Value
+Orders by Region / Product / Category
+On-Time Delivery Rate
+
+🧹 Data Cleaning & Modeling
+
+Cleaned raw data using Power Query (null handling, renaming, type conversion)
+Built a star schema model with fact and dimension tables (Orders, Customers, Products, Regions, etc.)
+Created calculated columns and DAX measures for metrics like AOV and delivery performance
+
+📈 Visuals Included
+
+KPI Cards for quick insights
+Line/Area charts for order and revenue trends
+Bar charts for product and region comparisons
+Donut/Pie charts for category breakdowns
+Tables for detailed order-level drilldowns
+Slicers for Date, Region, Category, and more
+
+🛠 Tools Used
+
+Power BI Desktop
+Power Query
+DAX
+
+📂 How to Use
+
+Open Order Dashboard.pbix in Power BI Desktop
+Refresh data if source is connected
+Interact with slicers to explore different views
+Extend with new visuals, measures, or data sources as needed
+
 
