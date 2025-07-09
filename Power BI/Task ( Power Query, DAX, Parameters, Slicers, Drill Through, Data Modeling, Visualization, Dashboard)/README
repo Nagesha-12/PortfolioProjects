@@ -1,1 +1,53 @@
+This Power BI project showcases end-to-end dashboard creation from data cleaning to insightful visualization. The report is designed to extract actionable insights and support data-driven decision-making across key business metrics.
 
+🧠 Project Goal
+
+To build an interactive Power BI dashboard that demonstrates:
+Data preparation and transformation
+DAX-based KPI calculations
+Visual storytelling using charts and slicers
+Business insights through trend and category analysis
+
+🧹 Data Preparation
+
+Imported raw data from Excel/CSV (assumed)
+Cleaned data using Power Query (null handling, type casting, column renaming)
+Transformed categorical fields and date formats for consistency
+
+🧮 DAX Measures & KPIs
+
+Total Sales
+Average Sales per Category/Segment
+Customer Rating (if applicable)
+Sales Trend Over Time
+Product/Region Performance
+
+📈 Visualizations
+
+KPI Cards – Show top-level performance indicators
+Bar/Column Charts – Sales by Category, Region, or Outlet
+Line Charts – Monthly/Quarterly sales trends
+Pie/Donut Charts – Proportional breakdowns by type
+Slicers – Interactive filters for time, product, outlet, or geography
+Tables – Drill-down views for deeper insights
+
+🛠 Tools Used
+
+Power BI Desktop (.pbix)
+Power Query
+DAX (Data Analysis Expressions)
+Data modeling with star schema (assumed structure)
+
+📂 How to Use
+
+Open the BI Assignment.pbix file in Power BI Desktop
+Review the data model, transformations, and DAX measures
+Explore the dashboard with slicers and visualizations
+Extend it by adding new metrics or connecting to live data
+
+✅ Highlights
+
+Clean and professional report layout
+Modular design: easily scalable for new metrics
+Reusable DAX logic and dynamic visuals
+Clear storytelling with business relevance
